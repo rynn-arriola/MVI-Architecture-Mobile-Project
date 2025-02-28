@@ -12,6 +12,8 @@ retrofit = "2.9.0"
 gson = "2.9.0"
 hilt = "2.48"
 hilt_navigation_compose = "1.0.0"
+lifecycleRuntimeCompose = "2.8.7"
+coilCompose = "2.7.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,6 +26,7 @@ androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", versi
 androidx-ui = { group = "androidx.compose.ui", name = "ui" }
 androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-lifecycle-runtime-compose = {module="androidx.lifecycle:lifecycle-runtime-compose", version.ref ="lifecycleRuntimeCompose"}
 androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
@@ -34,6 +37,7 @@ gson-converter = { group = "com.squareup.retrofit2", name = "converter-gson", ve
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 hilt_navigation_compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt_navigation_compose" }
+coil-compose = {module = "io.coil-kt:coil-compose", version.ref = "coilCompose"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
