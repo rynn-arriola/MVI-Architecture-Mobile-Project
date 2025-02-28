@@ -30,7 +30,6 @@ This project follows a modern approach to Android development, ensuring
 | 🖼 **Coil Compose** | Efficient image loading |
 
 ---
-📂 Project Structure
 📂 rynnarriola
 ├── 📂 mobileproject_mvi
 │   ├── 📂 di           # 🔧 Dependency Injection (Dagger Hilt Modules)
