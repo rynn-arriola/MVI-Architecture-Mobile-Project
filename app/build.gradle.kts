@@ -42,6 +42,11 @@ android {
     kapt{
         generateStubs = true
     }
+    testOptions {
+        packaging {
+            resources.excludes.add("META-INF/*")
+        }
+    }
 }
 
 dependencies {
@@ -59,6 +64,12 @@ dependencies {
     //compose
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.coil.compose)
+
+    //unit test
+    implementation(libs.mockk)
+    implementation(libs.coroutines.test)
+    implementation(libs.core.testing)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

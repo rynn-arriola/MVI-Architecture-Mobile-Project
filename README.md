@@ -14,20 +14,22 @@ This project follows a modern approach to Android development, ensuring
 ✅ **Retrofit + Gson** for network API calls.  
 ✅ **Kotlin Flow + StateFlow** for reactive state management.  
 ✅ **Coil Compose** for efficient image loading.
+✅ **MockK for unit testing** with coroutine support.
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tech | Purpose |
-|------|---------|
-| 🛠 **Kotlin** | Primary programming language |
-| 🏗 **Jetpack Compose** | Declarative UI framework |
-| 🔥 **MVI Architecture** | Ensures predictable state management |
-| ⚡ **Kotlin Flow & StateFlow** | Handles asynchronous data streams |
-| 🔧 **Dagger Hilt** | Dependency injection |
-| 🌐 **Retrofit & Gson** | API requests and JSON parsing |
-| 🖼 **Coil Compose** | Efficient image loading |
+| Tech                          | Purpose                                         |
+|-------------------------------|-------------------------------------------------|
+| 🛠 **Kotlin**                 | Primary programming language                    |
+| 🏗 **Jetpack Compose**        | Declarative UI framework                        |
+| 🔥 **MVI Architecture**       | Ensures predictable state management            |
+| ⚡ **Kotlin Flow & StateFlow** | Handles asynchronous data streams               |
+| 🔧 **Dagger Hilt**            | Dependency injection                            |
+| 🌐 **Retrofit & Gson**        | API requests and JSON parsing                   |
+| 🖼 **Coil Compose**           | Efficient image loading                         |
+| 🖼 **Mockk**                  | Unit testing framework for mocking dependencies |
 
 ---
 
